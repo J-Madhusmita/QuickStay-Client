@@ -1,3 +1,4 @@
+/* eslint-disable no-unused-vars */
 // ... imports ...
 import axios from "axios";
 import {
@@ -11,7 +12,7 @@ import { useNavigate } from "react-router-dom";
 import { toast } from "react-hot-toast";
 import api from "../utils/api";
 
-axios.defaults.baseURL = import.meta.env.VITE_BASE_URL;
+// axios.defaults.baseURL = import.meta.env.VITE_BASE_URL;
 
 const AppContext = createContext();
 
